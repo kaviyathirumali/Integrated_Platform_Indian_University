@@ -1,0 +1,78 @@
+h1 {
+    animation: hero-text-animate 1s cubic-bezier(.04, .79, .49, .93) forwards;
+}
+
+@keyframes hero-text-animate {
+    from {
+        transform: translateY(150px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.module_one_main_div select {
+    width: 250px;
+    height: 50px;
+    background-color: #3da9fc;
+    padding: 8px;
+    color: #fffffe;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.module_one_main_div button {
+    background-color: #90b4ce;
+    color: #fffffe;
+    width: 250px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.cards_div {
+    display: grid;
+    gap: 20px;
+    margin: 20px auto;
+}
+
+.card {
+    width: 100%;
+    height: 250px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #eaddcf;
+    border: 1px solid #d4d4d4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .institution_name {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card:hover {
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: auto;
+    height: 75px;
+    object-fit: contain;
+    margin: 0px auto 10px;
+}
+
+.slick-next,
+.slick-prev {
+    display: none !important;
+}
+
+.slick-slide img {
+    width: 100%;
+    height: 100vh;
+}

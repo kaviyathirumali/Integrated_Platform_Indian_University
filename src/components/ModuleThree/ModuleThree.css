@@ -1,0 +1,60 @@
+.title_div img {
+    width: 125px;
+    height: 125px;
+}
+
+.title_div h1 {
+    font-size: 50px;
+}
+
+.tab-buttons button {
+    border-bottom: 2px solid #5f6c7b;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.tab-buttons .active {
+    border-bottom: 2px solid #ef4565;
+}
+
+.tab {
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+tr{
+    padding: 10px 0;
+}
+td{
+    height: 50px;
+    
+}
+.keys_span {
+    font-weight: 700;
+    color: #384047;
+    text-transform: capitalize;
+    vertical-align: baseline;
+    font-size: 20px;
+    padding-right: 8px;
+    vertical-align: middle;
+}
+
+.values_span {
+    font-style: normal;
+    font-weight: 300;
+    margin: 0 0 10px 5px;
+    padding: 0;
+    color: #384047;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.values_span a{
+    text-decoration: underline;
+}
